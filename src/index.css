@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #035e3c;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  color: rgb(6, 179, 6);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header-item {
+  display: inline-block;
+  width: 49%;
+}
+
+.pull-right {
+  text-align: right;
+  margin-left: auto;
+}
+
+.pull-left {
+  text-align: left;
+  margin-right: -70px;
+}
+
+.container {
+  margin: 2%;
+}
+
+.game-header {
+  background-color: #2aaf35;
+  width: 49%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(216, 240, 207);
+  margin-left: 26%;
+  border-radius: 20px;
+}
+
+.dice-box {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 1.5%;
+}
+
+.dice-box button {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #35b680;
+  margin: 1.5%;
+  border-radius: 9px;
+}
+.btn {
+  display: inline-block;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.release-btn {
+  background-color: red;
+}
+
+.hold-btn {
+  background-color: #106466;
+}
+
+.roll-btn {
+  background-color: #2aaf35;
+  font-size: large;
+  margin: 25px;
+  width: 200px;
+}
+
+.score-table {
+  display: inline-table;
+  width: 49%;
+}
+
+.release-btn {
+  background-color: rgb(128, 3, 3);
+}
+
+.hold-btn {
+  background-color: #106466;
+}
+
+.thead {
+  color: #4ecc58;
+}
