@@ -65,20 +65,20 @@ const lowerSection = [
   {
     id: genId(),
     category: "Small Straight",
-    description: "Four sequential dice",
+    description: "Four dice in a sequence",
     calc: ResultTypes.smallStraight,
   },
   {
     id: genId(),
     category: "Large Straight",
-    description: "Five sequential dice",
+    description: "Five dice in a sequence",
     calc: ResultTypes.largeStraight,
   },
   {
     id: genId(),
-    category: "Yatzy",
+    category: "Yatzy!",
     description: "All five dice are the same",
-    calc: ResultTypes.yahtzee,
+    calc: ResultTypes.yatzy,
   },
   {
     id: genId(),
